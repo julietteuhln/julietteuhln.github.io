@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Portfolio 2023</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/font/kanakira-regular.ttf">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+<body>
+	<header class="grid-1">
+		<a href="index.html">
+			<img class="logo" src="assets/img/logoblanc.png" width="150">
+		</a>
+		<p class="grid-column-1">Graphiste | Webdesigneuse | Motion design</p>
+	</header>
+
+		<section>
+			<img class="titre" src="assets/titre2.png">
+		</section>
+
+		<section class="titrage">
+			<h1>Découvrez mes réalisations</h1>
+			<a href="#ancre">
+				<img src="assets/img/down.png" class="arrow">
+			</a>
+			
+		</section>
+
+		<section class="gallerie-images">
+			<img src="assets/img/vague.png" style="width: 100%;">
+			<div class="container gallery-grid" id="ancre">
+				<article class="grid-row-span-2 grid-column-1 ">
+					<a href="#">
+						<img class="h-100" src="assets/img/affiche.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/mockupgraine2.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/sachet-graine-nigelle.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/mockuper2.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/mockuper.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/mockuper1.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/flyer.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/flyers.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/jeu.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/pizza-flyer.png" alt="">
+					</a>
+				</article>
+				<article class="grid-row-span-2 grid-column-1">
+					<a href="#">
+						<img src="assets/img/home-pateasserie.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/logo-mohiba.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/site-hor-noir.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/site-hor-noir-2.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/site-hor-noir-3.png" alt="">
+					</a>
+				</article>
+				<article class="grid-row-span-3 grid-column-1 ">
+					<a href="#">
+						<img src="assets/img/newsletter-jeu-de-7-familles.png" alt="">
+					</a>
+				</article>
+				<article class="grid-row-span-2">
+					<a href="#">
+						<img src="assets/img/page-shop.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/maquettesitehor.png" alt="">
+					</a>
+				</article>
+				<article><a href="#"><img src="assets/img/gif.gif"></a></article>
+				<article><a href="#"><img src="assets/img/gif-2.gif"></a></article>
+				<article><a href="#"><img src="assets/img/gif-hashirama.gif"></a></article>
+
+			</div>
+		</section>
+		<section><img src="assets/img/b-footer.png" class="b-footer"></section>
+	
+
+
+
+	<footer>
+			<div class="grid-1">
+				<p>Theme designed by</p> 
+				<img src="assets/img/logoblanc.png" alt="logo" class="grid-column-1" width="150">
+			</div>
+			
+	</footer>
+
+<script>
+	$(document).ready(function() {
+		$('a[href^="#"]').on('click', function(e) { // Au clic sur la balise <a> ayant une valeur dans l'attribut href commençant par #
+			e.preventDefault();
+			var section = $(this).attr('href'); // variable ou est stockée la section ciblée
+			var speed = 900; // variable ou est stockée la durée de l'animation en milliseconde
+			$('html, body').animate( { scrollTop: $(section).offset().top-135 }, speed ); // lancement de l'animation qui scroll vers le haut de la section ciblée
+		});
+	});
+</script>	
+</body>
+</html>
