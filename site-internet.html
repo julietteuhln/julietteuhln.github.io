@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Les sites internets réalisés</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
+</head>
+<body>
+<div class="container">
+		
+<header class="grid-1">
+		<a href="index.html">
+			<img class="logo" src="assets/img/logoblanc.png" width="150">
+		</a>
+		<p class="grid-column-1">Graphiste | Webdesigneuse</p>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="index.html"><img src="assets/img/60817.png" width="20" style="margin: 0; padding: 0;"></a></li>
+					<li><a href="#" title="Les sites web page active" class="active">Les sites web</a></li>
+					<li><a href="print.html">Les imprimables</a></li>
+					<li><a href="newsletters.html">Les newsletters</a></li>
+					<li><a href="enseigne.html">Les enseignes</a></li>
+					<li><a href="#">Les gifs</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="menu-burger">
+				<nav>
+					<input type="checkbox" id="menu">
+						<label for="menu">
+							<div class="pos-relative">
+								<hr>
+								<hr>
+								<hr>
+							</div>
+						</label>
+					<ul>
+						<li><a href="site-internet.html">Les sites web</a></li>
+						<li><a href="print.html">Les imprimables</a></li>
+						<li><a href="newsletters.html">Les newsletters</a></li>
+						<li><a href="enseigne.html">Les enseignes</a></li>
+						<li><a href="">Les gifs</a></li>
+					</ul>
+				</nav>
+			</div>
+</header>
+
+<section class="titrage">
+	<h1>Découvrez mes réalisations de sites internets</h1>
+</section>
+
+		<section class="gallerie-images">
+			<div class="container gallery-grid" id="ancre">
+				<article>
+					<a href="#">
+						<img src="assets/img/mockuper2.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/mockuper.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/mockuper1.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/home-pateasserie.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/site-hor-noir.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/site-hor-noir-2.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img class="h-100" src="assets/img/site-hor-noir-3.png" alt="">
+					</a>
+				</article>
+				<article class="">
+					<a href="#">
+						<img src="assets/img/page-shop.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/maquettesitehor.png" alt="">
+					</a>
+				</article>
+			</div>
+		</section>
+
+</div>
+
+
+	<section>
+		<img src="assets/img/b-footer.png" class="b-footer">
+	</section>
+
+<footer>
+	<div class="grid-1">
+		<p>Theme designed by</p> 
+		<img src="assets/img/logoblanc.png" alt="logo" class="grid-column-1" width="150">
+	</div>		
+</footer>
+
+<script>
+	$(document).ready(function() {
+		$('a[href^="#"]').on('click', function(e) { // Au clic sur la balise <a> ayant une valeur dans l'attribut href commençant par #
+			e.preventDefault();
+			var section = $(this).attr('href'); // variable ou est stockée la section ciblée
+			var speed = 900; // variable ou est stockée la durée de l'animation en milliseconde
+			$('html, body').animate( { scrollTop: $(section).offset().top-135 }, speed ); // lancement de l'animation qui scroll vers le haut de la section ciblée
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Les enseignes</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
+</head>
+<body>
+<div class="container">
+		
+	<header class="grid-1">
+		<a href="index.html">
+			<img class="logo" src="assets/img/logoblanc.png" width="150">
+		</a>
+		<p class="grid-column-1">Graphiste | Webdesigneuse</p>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="index.html"><img src="assets/img/60817.png" width="20" style="margin: 0; padding: 0;"></a></li>
+					<li><a href="site-internet.html">Les sites web</a></li>
+					<li><a href="print.html">Les imprimables</a></li>
+					<li><a href="#">Les newsletters</a></li>
+					<li><a href="#" title="Les enseignes page active" class="active">Les enseignes</a></li>
+					<li><a href="">Les gifs</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="menu-burger">
+				<nav>
+					<input type="checkbox" id="menu">
+						<label for="menu">
+							<div class="pos-relative">
+								<hr>
+								<hr>
+								<hr>
+							</div>
+						</label>
+					<ul>
+						<li><a href="site-internet.html">Les sites web</a></li>
+						<li><a href="print.html">Les imprimables</a></li>
+						<li><a href="newsletters.html">Les newsletters</a></li>
+						<li><a href="enseigne.html">Les enseignes</a></li>
+						<li><a href="">Les gifs</a></li>
+					</ul>
+				</nav>
+			</div>
+	</header>
+
+	<section class="titrage">
+			<h1>Découvrez mes réalisations d'enseignes</h1>
+	</section>
+
+	<section class="gallerie-images">
+			<div class="container gallery-grid" id="ancre">
+				<article>
+					<a href="#">
+						<img src="assets/img/tous_en_mob_façadev3.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/zoo-façade.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/IMG_8475.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/horaire-zoom.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/bricomer.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/avant-apres.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/cbd-enseigne-finale.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/cbd-drapeau-panneau.png" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/athanor+ecran.gif" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/avant-après.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/devanture-ariane.jpg" alt="">
+					</a>
+				</article>
+				<article>
+					<a href="#">
+						<img src="assets/img/enseigne-ariane.jpg" alt="">
+					</a>
+				</article>
+
+			</div>
+	</section>
+</div>
+
+
+<section>
+	<img src="assets/img/b-footer.png" class="b-footer">
+</section>
+
+<footer>
+	<div class="grid-1">
+		<p>Theme designed by</p> 
+		<img src="assets/img/logoblanc.png" alt="logo" class="grid-column-1" width="150">
+	</div>		
+</footer>
+
+<script>
+	$(document).ready(function() {
+		$('a[href^="#"]').on('click', function(e) { // Au clic sur la balise <a> ayant une valeur dans l'attribut href commençant par #
+			e.preventDefault();
+			var section = $(this).attr('href'); // variable ou est stockée la section ciblée
+			var speed = 900; // variable ou est stockée la durée de l'animation en milliseconde
+			$('html, body').animate( { scrollTop: $(section).offset().top-135 }, speed ); // lancement de l'animation qui scroll vers le haut de la section ciblée
+		});
+	});
+</script>	
+</body>
+</html>
