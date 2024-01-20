@@ -1,0 +1,69 @@
+@media (max-width: 500px){
+	.container{
+		width: 100%;
+		margin: 0;
+	}
+	.header-grid{
+		width: 100%;
+		height: 15vh;
+		position: relative;
+		grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+		padding-top: 10px;
+    }
+
+    .logo{
+    	margin: 0;
+    	padding: 0;
+    }
+
+    header a{
+    	justify-content: center;
+    }
+
+    header p{
+    	text-align: center;
+    	padding-top: 10px;
+    }
+	
+	.titre{
+		margin: 5em 0;
+	}
+	section, article, footer, header{
+		clear: both;
+	}
+
+	section{
+		width: 100%;
+		margin: auto;
+	}
+	.grid-2{
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	}
+	.menu-burger{
+		display: block;
+		grid-row: 1;
+		padding-top: 10px;
+	}
+
+	.menu{
+		display: none;
+	}
+	section.galerie{
+		background-image: none;
+		padding-bottom: 0;
+	}
+	footer{
+		width: 100%;
+		margin: 0;
+	}
+
+}
+
+@media (min-width:  960px){
+	.menu-burger{
+		display: none;
+	}
+	.menu{
+		display: block;
+	}
+}

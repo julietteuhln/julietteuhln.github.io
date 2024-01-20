@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "kanakira-regular";
+	src: url(‘/font/kanakira-regular.ttf’) format(‘truetype’)
+}
+
+@font-face {
+	font-family: "Minigame";
+	src: url(‘/font/Minigame.ttf’) format(‘truetype’)
+}
