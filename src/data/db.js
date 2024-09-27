@@ -10,9 +10,7 @@
             "images": [
                 "assets/img/flyer.jpg",
                 "assets/img/flyer2.png",
-                "assets/img/carte-pizza.png", 
-                "assets/img/buildingon.png", 
-                "assets/img/pizza-flyer.png", 
+                "assets/img/carte-pizza.png"
             ],
             "tags": [
                 "graphisme",
