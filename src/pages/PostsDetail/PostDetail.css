@@ -1,0 +1,17 @@
+.postdetail-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+@media screen and (max-width:1080px) {
+    .postdetail-flex{
+        flex-direction: column;
+    }
+    
+    .postdetail-flex{
+        width: 100%;
+    }
+
+}
