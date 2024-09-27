@@ -24,16 +24,6 @@ export default function GaleryDiff() {
                 src="/assets/img/retouche3.jpg" />
             </div>
             <div className="diff-resizer"></div>
-        </div><div className="diff aspect-[16/9] mb-3">
-            <div className="diff-item-1">
-                <img alt="daisy" src="/assets/img/retouche4.png" width={400} />
-            </div>
-            <div className="diff-item-2">
-                <img
-                alt="daisy"
-                src="/assets/img/retouche4.jpg" width={400} />
-            </div>
-            <div className="diff-resizer"></div>
         </div>
         <div className="diff aspect-[16/9] mb-3">
             <div className="diff-item-1">
