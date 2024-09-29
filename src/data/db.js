@@ -1,31 +1,6 @@
  export const posts = [
-        {
+    {
             "id": 1,
-            "title": "Graphisme",
-            "poster": "assets/img/affiche_a3.png",
-            "description": "Le graphisme print et web fusionne créativité et technique pour concevoir des visuels adaptés aux supports imprimés et numériques, garantissant cohérence et impact visuel.",
-            "text": "Réaliser un graphisme de qualité est essentiel pour attirer l’attention des utilisateurs et communiquer des messages clairs et percutants. Un design bien pensé capte l'œil et renforce l'image de marque. Il permet non seulement de se démarquer, mais aussi de créer une identité de marque forte et reconnaissable. Le graphisme de qualité est une composante indispensable pour réussir dans l'univers numérique et de l'impression, contribuant au succès global de toute stratégie de communication.",
-            "category": "Graphisme",
-            "thumbnail": "assets/img/affiche_a3.png",
-            "images": [
-                "assets/img/flyer.jpg",
-                "assets/img/flyer2.png",
-                "assets/img/carte-pizza.png"
-            ],
-            "tags": [
-                "graphisme",
-                "impression",
-                "flyer",
-                "bannière",
-                "carte de visite"
-            ],
-            "reaction":{
-                "likes": 0,
-                "dislikes": 0
-            }
-        },
-        {
-            "id": 2,
             "title": "Design de site",
             "poster": "assets/img/maquette-01-site-ecommerce.png",
             "description": "La création de sites web combine créativité et fonctionnalité, offrant un design unique qui améliore l'expérience utilisateur tout en reflétant l'identité de la marque.",
@@ -51,9 +26,34 @@
             }
         },
         {
+            "id": 2,
+            "title": "Graphisme",
+            "poster": "assets/img/affiche_a3.png",
+            "description": "Le graphisme print et web fusionne créativité et technique pour concevoir des visuels adaptés aux supports imprimés et numériques, garantissant cohérence et impact visuel.",
+            "text": "Réaliser un graphisme de qualité est essentiel pour attirer l’attention des utilisateurs et communiquer des messages clairs et percutants. Un design bien pensé capte l'œil et renforce l'image de marque. Il permet non seulement de se démarquer, mais aussi de créer une identité de marque forte et reconnaissable. Le graphisme de qualité est une composante indispensable pour réussir dans l'univers numérique et de l'impression, contribuant au succès global de toute stratégie de communication.",
+            "category": "Graphisme",
+            "thumbnail": "assets/img/affiche_a3.png",
+            "images": [
+                "assets/img/flyer.jpg",
+                "assets/img/flyer2.png",
+                "assets/img/carte-pizza.png"
+            ],
+            "tags": [
+                "graphisme",
+                "impression",
+                "flyer",
+                "bannière",
+                "carte de visite"
+            ],
+            "reaction":{
+                "likes": 0,
+                "dislikes": 0
+            }
+        },
+        {
             "id": 3,
             "title": "Animation Gif",
-            "poster": "assets/img/gif-2.gif",
+            "poster": "assets/img/lulugif.gif",
             "description": "L'animation GIF courte permet de créer des séquences visuelles dynamiques et engageantes, parfaites pour capter l'attention rapidement sur le web ou les réseaux sociaux.",
             "text": "Créer des GIF animés est une méthode efficace pour transmettre des messages visuels de manière engageante et concise. Ces animations courtes captent rapidement l’attention, ajoutent du dynamisme aux contenus et sont idéales pour les réseaux sociaux, enrichissant ainsi l'interaction en ligne.",
             "category": "gif",
