@@ -1,14 +1,17 @@
-import './App.css';
+import './App.css
+import { BrowserRouter } from 'react-router-dom';
 import AllRoutes from './routes/AllRoutes';
-import Header from './components/Layout/Header'
+import Header from './components/Layout/Header';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-        <main>
-          <AllRoutes />
-        </main>
+      <BrowserRouter basename="/julietteuhln.github.io">
+        <Header />
+          <main>
+            <AllRoutes />
+          </main>
+        </BrowserRouter>
     </div>
   );
 }
