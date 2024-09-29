@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const PostCard = ({ post }) => {
   return (
-    <div className='card card-compact bg-base-200 w-96 shadow-xl lg:card-side rounded'>
+    <div className='card card-compact bg-base-200 shadow-xl lg:card-side rounded'>
       <NavLink
         to={`/post/${post.id}`}
         className='card-link'

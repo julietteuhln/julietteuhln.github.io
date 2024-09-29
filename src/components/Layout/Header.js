@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 export default function Header() {
 
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'pastel');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'retro');
   
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -10,7 +10,7 @@ export default function Header() {
   }, [theme]);
 
   const handleThemeChange = (e) => {
-    const newTheme = e.target.checked ? 'sunset' : 'pastel';
+    const newTheme = e.target.checked ? 'sunset' : 'retro';
     setTheme(newTheme);
   }
 
@@ -37,10 +37,10 @@ export default function Header() {
                 <li>
                   <a>Projets</a>
                   <ul className="p-2">
-                    <li><a href='/post/1'>Graphisme</a></li>
-                    <li><a href='/post/2'>Design de site</a></li>
-                    <li><a href='/post/3'>Animation courte</a></li>
-                    <li><a href='/post/5'>Retouche photo</a></li>
+                    <li><a href='julietteuhln.github.io/post/1'>Graphisme</a></li>
+                    <li><a href='julietteuhln.github.io/post/1/post/2'>Design de site</a></li>
+                    <li><a href='julietteuhln.github.io/post/1/post/3'>Animation courte</a></li>
+                    <li><a href='julietteuhln.github.io/post/1/post/5'>Retouche photo</a></li>
                   </ul>
                 </li>
                 <li><a href='/about'>A propos & contact</a></li>
@@ -55,10 +55,10 @@ export default function Header() {
                 <details>
                   <summary>Projets</summary>
                   <ul className="p-2">
-                    <li><a href='/post/1'>Graphisme</a></li>
-                    <li><a href='/post/2'>Design de site</a></li>
-                    <li><a href='/post/3'>Animation courte</a></li>
-                    <li><a href='/post/5'>Retouche photo</a></li>
+                    <li><a href='julietteuhln.github.io/post/1/post/1'>Graphisme</a></li>
+                    <li><a href='julietteuhln.github.io/post/1/post/2'>Design de site</a></li>
+                    <li><a href='julietteuhln.github.io/post/1/post/3'>Animation courte</a></li>
+                    <li><a href='julietteuhln.github.io/post/1/post/5'>Retouche photo</a></li>
                   </ul>
                 </details>
               </li>

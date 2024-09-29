@@ -61,7 +61,9 @@
             "images": [
                 "assets/img/gif.gif",
                 "assets/img/gif-hashirama.gif",
-                "assets/img/lulugif.gif", 
+                "assets/img/lulugif.gif",
+                "assets/img/gif-2.gif",
+
 
             ],
             "tags": [
