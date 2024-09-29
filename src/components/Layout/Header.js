@@ -37,10 +37,10 @@ export default function Header() {
                 <li>
                   <a>Projets</a>
                   <ul className="p-2">
-                    <li><a href='julietteuhln.github.io/post/1'>Graphisme</a></li>
-                    <li><a href='julietteuhln.github.io/post/2'>Design de site</a></li>
-                    <li><a href='julietteuhln.github.io/post/3'>Animation courte</a></li>
-                    <li><a href='julietteuhln.github.io/post/5'>Retouche photo</a></li>
+                    <li><NavLink to='/post/1'>Graphisme</NavLink></li>
+                    <li><NavLink to='/post/2'>Design de site</NavLink></li>
+                    <li><NavLink to='/post/3'>Animation courte</NavLink></li>
+                    <li><NavLink to='/post/5'>Retouche photo</NavLink></li>
                   </ul>
                 </li>
                 <li><a href='/about'>A propos & contact</a></li>
@@ -55,10 +55,10 @@ export default function Header() {
                 <details>
                   <summary>Projets</summary>
                   <ul className="p-2">
-                    <li><a href='julietteuhln.github.io/post/1'>Graphisme</a></li>
-                    <li><a href='julietteuhln.github.io/post/2'>Design de site</a></li>
-                    <li><a href='julietteuhln.github.io/post/3'>Animation courte</a></li>
-                    <li><a href='julietteuhln.github.io/post/5'>Retouche photo</a></li>
+                    <li><NavLink to='/post/1'>Graphisme</NavLink></li>
+                    <li><NavLink to='/post/2'>Design de site</NavLink></li>
+                    <li><NavLink to='/post/3'>Animation courte</NavLink></li>
+                    <li><NavLink to='/post/5'>Retouche photo</NavLink></li>
                   </ul>
                 </details>
               </li>
