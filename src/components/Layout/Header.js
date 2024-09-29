@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className='navbar mx-auto justify-between base-100 bg-neutral'>
+      <div className='navbar mx-auto justify-between text-white base-100 bg-neutral'>
            <div className="navbar-start">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ export default function Header() {
               </div>
               <ul
               tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 text-accent rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                className="menu menu-sm dropdown-content bg-base-200 text-primary rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 <li><Link to='/'>Accueil</Link></li>
                 <li>
                   <a>Projets</a>
