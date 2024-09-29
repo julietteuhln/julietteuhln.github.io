@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className='navbar mx-auto justify-between base-100 bg-neutral text-white'>
+      <div className='navbar mx-auto justify-between base-100 bg-neutral'>
            <div className="navbar-start">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ export default function Header() {
               </div>
               <ul
               tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-300 text-accent rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 <li><Link to='/'>Accueil</Link></li>
                 <li>
                   <a>Projets</a>
@@ -50,7 +50,7 @@ export default function Header() {
           <a className="btn btn-ghost text-xl">Juliette Webdesign</a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 z-10 text-accent">
+            <ul className="menu menu-horizontal px-1 z-10">
               <li><a href='/'>Accueil</a></li>
               <li>
                 <details>
