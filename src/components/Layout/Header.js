@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -37,10 +38,10 @@ export default function Header() {
                 <li>
                   <a>Projets</a>
                   <ul className="p-2">
-                    <li><NavLink to='/post/1'>Graphisme</NavLink></li>
-                    <li><NavLink to='/post/2'>Design de site</NavLink></li>
-                    <li><NavLink to='/post/3'>Animation courte</NavLink></li>
-                    <li><NavLink to='/post/5'>Retouche photo</NavLink></li>
+                    <li><Link to='/post/1'>Graphisme</Link></li>
+                    <li><Link to='/post/2'>Design de site</Link></li>
+                    <li><Link to='/post/3'>Animation courte</Link></li>
+                    <li><Link to='/post/5'>Retouche photo</Link></li>
                   </ul>
                 </li>
                 <li><a href='/about'>A propos & contact</a></li>
@@ -55,10 +56,10 @@ export default function Header() {
                 <details>
                   <summary>Projets</summary>
                   <ul className="p-2">
-                    <li><NavLink to='/post/1'>Graphisme</NavLink></li>
-                    <li><NavLink to='/post/2'>Design de site</NavLink></li>
-                    <li><NavLink to='/post/3'>Animation courte</NavLink></li>
-                    <li><NavLink to='/post/5'>Retouche photo</NavLink></li>
+                    <li><Link to='post/1'>Graphisme</Link></li>
+                    <li><Link to='post/2'>Design de site</Link></li>
+                    <li><Link to='post/3'>Animation courte</Link></li>
+                    <li><Link to='post/5'>Retouche photo</Link></li>
                   </ul>
                 </details>
               </li>
