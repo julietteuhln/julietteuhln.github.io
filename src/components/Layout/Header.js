@@ -38,9 +38,9 @@ export default function Header() {
                   <a>Projets</a>
                   <ul className="p-2">
                     <li><a href='julietteuhln.github.io/post/1'>Graphisme</a></li>
-                    <li><a href='julietteuhln.github.io/post/1/post/2'>Design de site</a></li>
-                    <li><a href='julietteuhln.github.io/post/1/post/3'>Animation courte</a></li>
-                    <li><a href='julietteuhln.github.io/post/1/post/5'>Retouche photo</a></li>
+                    <li><a href='julietteuhln.github.io/post/2'>Design de site</a></li>
+                    <li><a href='julietteuhln.github.io/post/3'>Animation courte</a></li>
+                    <li><a href='julietteuhln.github.io/post/5'>Retouche photo</a></li>
                   </ul>
                 </li>
                 <li><a href='/about'>A propos & contact</a></li>
@@ -55,10 +55,10 @@ export default function Header() {
                 <details>
                   <summary>Projets</summary>
                   <ul className="p-2">
-                    <li><a href='julietteuhln.github.io/post/1/post/1'>Graphisme</a></li>
-                    <li><a href='julietteuhln.github.io/post/1/post/2'>Design de site</a></li>
-                    <li><a href='julietteuhln.github.io/post/1/post/3'>Animation courte</a></li>
-                    <li><a href='julietteuhln.github.io/post/1/post/5'>Retouche photo</a></li>
+                    <li><a href='julietteuhln.github.io/post/1'>Graphisme</a></li>
+                    <li><a href='julietteuhln.github.io/post/2'>Design de site</a></li>
+                    <li><a href='julietteuhln.github.io/post/3'>Animation courte</a></li>
+                    <li><a href='julietteuhln.github.io/post/5'>Retouche photo</a></li>
                   </ul>
                 </details>
               </li>
