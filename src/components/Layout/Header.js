@@ -33,8 +33,8 @@ export default function Header() {
               </div>
               <ul
               tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a href='/'>Accueil</a></li>
+                className="menu menu-sm dropdown-content bg-base-300 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><Link to='/'>Accueil</Link></li>
                 <li>
                   <a>Projets</a>
                   <ul className="p-2">
@@ -44,7 +44,7 @@ export default function Header() {
                     <li><Link to='/post/5'>Retouche photo</Link></li>
                   </ul>
                 </li>
-                <li><a href='/about'>A propos & contact</a></li>
+                <li><Link to='/about'>A propos & contact</Link></li>
               </ul>
           </div>
           <a className="btn btn-ghost text-xl">Juliette</a>
@@ -63,7 +63,7 @@ export default function Header() {
                   </ul>
                 </details>
               </li>
-              <li><a href='/about'>A propos & contact</a></li>
+              <li><Link to='/about'>A propos & contact</Link></li>
             </ul>
           </div>
           <div className='navbar-end'>
