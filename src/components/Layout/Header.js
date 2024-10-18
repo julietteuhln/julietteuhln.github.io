@@ -38,8 +38,8 @@ export default function Header() {
                 <li>
                   <a>Projets</a>
                   <ul className="p-2">
-                    <li><Link to='/post/1'>Graphisme</Link></li>
-                    <li><Link to='/post/2'>Design de site</Link></li>
+                    <li><Link to='/post/2'>Graphisme</Link></li>
+                    <li><Link to='/post/1'>Design de site</Link></li>
                     <li><Link to='/post/3'>Animation courte</Link></li>
                     <li><Link to='/post/5'>Retouche photo</Link></li>
                   </ul>
@@ -56,8 +56,8 @@ export default function Header() {
                 <details>
                   <summary>Projets</summary>
                   <ul className="p-2">
-                    <li><Link to='post/1'>Graphisme</Link></li>
-                    <li><Link to='post/2'>Design de site</Link></li>
+                    <li><Link to='post/2'>Graphisme</Link></li>
+                    <li><Link to='post/1'>Design de site</Link></li>
                     <li><Link to='post/3'>Animation courte</Link></li>
                     <li><Link to='post/5'>Retouche photo</Link></li>
                   </ul>
