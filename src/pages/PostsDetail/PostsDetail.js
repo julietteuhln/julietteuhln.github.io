@@ -56,10 +56,10 @@ const PostsDetail = () => {
          <img src={`/${post.poster}`} alt="title poster" width={400} className='rounded-xl'/>
       </article>    
       <article className='py-4'>
-        <GaleryMansionGrid post={post} />
+        <GaleryMansionGrid images={post.images} />
       </article> 
       {id === '5' && (
-        <article>
+      <article>
         <GaleryDiff post={post} />
       </article>
       )}

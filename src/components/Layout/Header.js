@@ -42,6 +42,7 @@ export default function Header() {
                     <li><Link to='/post/1'>Design de site</Link></li>
                     <li><Link to='/post/3'>Animation courte</Link></li>
                     <li><Link to='/post/5'>Retouche photo</Link></li>
+                    <li><Link to='post/6'>Newsletter</Link></li>
                   </ul>
                 </li>
                 <li><Link to='/about'>A propos & contact</Link></li>
@@ -60,6 +61,7 @@ export default function Header() {
                     <li><Link to='post/1'>Design de site</Link></li>
                     <li><Link to='post/3'>Animation courte</Link></li>
                     <li><Link to='post/5'>Retouche photo</Link></li>
+                    <li><Link to='post/6'>Newsletter</Link></li>
                   </ul>
                 </details>
               </li>

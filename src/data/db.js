@@ -13,8 +13,11 @@
                 "assets/img/maquette-03-site-ecommerce.png",
                 "assets/img/maquettesitehor.png",
                 "assets/img/page-shop.png",
-                "assets/img/page-kitv2.png"
-            ],
+                "assets/img/page-kitv2.png",
+                "assets/img/SHOP.png",
+                "assets/img/maquette-shop-2.jpg",
+                "assets/img/maquette-shop.png"
+         ],
             "tags": [
                 "Développement d'applications",
                 "e-commerce",
@@ -91,6 +94,27 @@
             "tags": [
                 "colorisation",
                 "photoshop"
+            ],
+            "reaction":{
+                "likes": 0,
+                "dislikes": 0
+            }
+        },
+        {
+            "id": 6,
+            "title": "Newsletter",
+            "poster": "assets/img/gif-2.gif",
+            "description": "Garder le contact par email",
+            "text": "Les newsletters sont un moyen efficace de communiquer avec une audience en partageant des informations ciblées, des promotions ou des actualités. Elles renforcent la relation client et favorisent la fidélité. Mesurables grâce à des outils d'analyse, elles permettent d'ajuster les stratégies marketing pour maximiser l'engagement.",
+            "category": "webmarketing",
+            "thumbnail": "assets/img/gif-2.gif",
+            "images": [
+                "assets/img/newsletter-jeu-de-7-familles.png",
+                "assets/img/newsletter-moveat.jpg" 
+            ],
+            "tags": [
+                "marketing",
+                "email"
             ],
             "reaction":{
                 "likes": 0,
